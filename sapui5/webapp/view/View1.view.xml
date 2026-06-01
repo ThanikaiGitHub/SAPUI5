@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="sap.btp.sapui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="appView1">
+			<pages>
+				<Page id="page" showHeader="false">
+					<content>
+						<IllustratedMessage id="illustratedMessage" title="Stay tuned!" description="More content to come" illustrationType="BeforeSearch"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
+
